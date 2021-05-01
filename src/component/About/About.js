@@ -50,7 +50,7 @@ const About = () => {
                        <br/>
                       <span> >Python</span>
                       <br/>
-                      >SASS
+                      <span>>SASS</span>
                    </div>
                 </div>
             </div>

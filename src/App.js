@@ -9,6 +9,8 @@ import {
 } from "react-router-dom";
 import Home from './component/Home/Home';
 import About from './component/About/About';
+// import Particles from 'react-particles-js';
+import "aos/dist/aos.css";
 
 
 function App() {
@@ -18,7 +20,9 @@ function App() {
         <Switch>
           <Route exact path="/">
             <MainNav></MainNav>
-            <Home></Home>
+            <Home>
+            
+            </Home>
             <About></About>
           </Route>
         </Switch>
