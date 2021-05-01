@@ -1,0 +1,31 @@
+.about{
+    /* margin-top: 150px !important; */
+    margin: 150px 200px !important;
+}
+.about h1{
+    font-size: 40px;
+    color: gainsboro;
+    font-weight: 700;
+    border-bottom: 1px solid white;
+}
+.about p{
+    color: #ffffff;
+}
+div{
+    overflow-x: hidden;
+}
+.span-text{
+    color: #56FFDA;
+}
+.about-skill{
+    margin-top: 25px;
+    border-left: 1px solid white;
+    text-align:center;
+    color: white;
+}
+.about-skill h5{
+    border-bottom: 1px solid white;
+}
+.skill-div span:hover{
+    color: #56FFDA
+}

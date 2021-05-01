@@ -1,0 +1,39 @@
+.home{
+    margin-top: 200px;
+    margin-left: 200px !important;
+}
+.home {
+    /* color: white; */
+}
+.home p{
+    color: #56FFDA;
+}
+.home h1{
+    font-size: 80px;
+    font-weight:700;
+    color: gainsboro;
+    font-family: 'Dancing Script', cursive;
+}
+.home small{
+    color: #56FFDA;
+}
+.home span{
+    color: #56FFDA;
+    font-size:20px;
+}
+.img{
+    height: 500px;
+    /* border: 1px solid  #56FFDA; */
+    /* border-radius: 50% */
+}
+.button{
+    width: 150px;
+    height: 50px;
+    /* border-radius: 15px; */
+    background: transparent;
+    color: #56FFDA;
+    border: 1px solid #56FFDA
+}
+.button:hover{
+    background-color: rgb(47, 47, 47);
+}

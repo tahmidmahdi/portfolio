@@ -1,0 +1,20 @@
+.main-nav{
+    padding: 0px 350px !important;
+    
+    /* font-weight: 700; */
+    
+}
+.nav-link{
+    color: whitesmoke !important;
+    padding: 0px 40px !important
+}
+.logo{
+    height: 55px
+}
+
+.nav-link:hover {
+    color: #56FFDA !important;
+}
+div{
+    font-family: 'Fira Code', monospace;
+}
