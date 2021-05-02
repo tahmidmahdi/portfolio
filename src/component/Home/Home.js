@@ -21,7 +21,7 @@ const Home = () => {
     return (
 
 
-        <div style={style}>
+        <div style={style} className="main-home-div"> 
             <Particles id="particles-js"
                     params={{
                         "particles": {
