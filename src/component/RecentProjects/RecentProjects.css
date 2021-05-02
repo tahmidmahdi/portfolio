@@ -1,0 +1,25 @@
+.recent-project-div{
+    margin: 350px 200px !important;
+    color: white;
+}
+.recent-project-div  h1{
+    border-bottom: 1px solid white;
+}
+.project-cart-div{
+    margin-top: 150px ;
+    padding: 0px 20px;
+}
+.card-title{
+    color: white
+}
+.card-text{
+    color: white;
+}
+.card{
+    background: transparent !important;
+    text-align: center;
+    
+}
+.card-border{
+    /* border: 1px solid white; */
+}

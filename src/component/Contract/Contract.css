@@ -1,0 +1,23 @@
+.contract{
+    margin: 200px 200px;
+    /* text-align: center; */
+}
+.contract h1{
+    color: white;
+    border-bottom: 1px solid white;
+}
+.contract form{
+    text-align: center;
+}
+.contract form input{
+    width: 400px;
+    height: 60px
+    
+}
+.contract form textarea{
+    width: 400px;
+    height: 60px
+}
+.contract form label{
+    color: white;
+}

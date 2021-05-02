@@ -1,0 +1,24 @@
+.blogs h1{
+    color: white;
+    border-bottom: 1px solid white;
+    
+}
+.blogs{
+    margin: 0px 200px;
+}
+
+figure p{
+    color: white;
+}
+.card img{
+    height: 400px;
+    width: 1000px;
+    margin-left: 250px;
+}
+
+.card button{
+    margin-left: 0px;
+}
+.blog-cart{
+    margin-top: 100px;
+}

@@ -21,9 +21,9 @@ const MainNav = () => {
                         <Link to="/" className="nav-link "> 05_Home</Link> */}
                         <a href="#home" className="nav-link" >01_Home</a>
                         <a href="#about" className="nav-link ">02_About</a>
-                        <a href="/" className="nav-link ">03_Projects</a>
-                        <a href="/" className="nav-link ">04_Contract</a>
-                        <a href="/" className="nav-link ">05_Blog</a>
+                        <a href="#project" className="nav-link ">03_Projects</a>
+                        <a href="" className="nav-link ">04_Contract</a>
+                        <a href="#blog" className="nav-link ">05_Blog</a>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

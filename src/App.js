@@ -11,6 +11,9 @@ import Home from './component/Home/Home';
 import About from './component/About/About';
 // import Particles from 'react-particles-js';
 import "aos/dist/aos.css";
+import RecentProjects from './component/RecentProjects/RecentProjects';
+import Blogs from './component/Blogs/Blogs';
+import Contract from './component/Contract/Contract';
 
 
 function App() {
@@ -24,6 +27,9 @@ function App() {
             
             </Home>
             <About></About>
+            <RecentProjects></RecentProjects>
+            <Blogs></Blogs>
+            <Contract></Contract>
           </Route>
         </Switch>
       </Router>

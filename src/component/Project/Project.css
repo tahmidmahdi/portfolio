@@ -1,0 +1,16 @@
+.box{
+    height: 700px;
+    width: 550px;
+    /* border: 1px solid  #56FFDA; */
+    /* display: flex i !important; */
+    text-align: center;
+    margin-left: 80px;
+}
+.box img{
+    height: 350px;
+    width: 500px;
+    margin: 20px;
+}
+.cart{
+    margin-top: 100px;
+}
