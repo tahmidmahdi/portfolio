@@ -18,7 +18,7 @@ const Blogs = () => {
                     </div>
                     <img src={blog1} class="card-img-bottom" alt="..." />
                     <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                    <a href='https://tahmidmahdi.medium.com/difference-between-var-let-const-in-javascript-76525d206488' target='_blank'><button className="button ">View Article</button></a>
+                    <a href='https://tahmidmahdi.medium.com/difference-between-var-let-const-in-javascript-76525d206488' rel="noreferrer" target='_blank'><button className="button ">View Article</button></a>
                 </div>
     
                 <div class="card mt-5" data-aos="zoom-in-up">
@@ -29,7 +29,7 @@ const Blogs = () => {
                     </div>
                     <img src={blog2} class="card-img-bottom" alt="..." />
                     <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                    <a href='https://tahmidmahdi.medium.com/difference-between-var-let-const-in-javascript-76525d206488' target='_blank'><button className="button ">View Article</button></a>
+                    <a href='https://tahmidmahdi.medium.com/difference-between-var-let-const-in-javascript-76525d206488' rel="noreferrer" target='_blank'><button className="button ">View Article</button></a>
                 </div>
     
     
@@ -41,7 +41,7 @@ const Blogs = () => {
                     </div>
                     <img src={blog3} class="card-img-bottom" alt="..." />
                     <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                    <a href='https://tahmidmahdi.medium.com/difference-between-var-let-const-in-javascript-76525d206488' target='_blank'><button className="button ">View Article</button></a>
+                    <a href='https://tahmidmahdi.medium.com/difference-between-var-let-const-in-javascript-76525d206488' rel="noreferrer" target='_blank'><button className="button ">View Article</button></a>
                 </div>
             </div>
         </div>
