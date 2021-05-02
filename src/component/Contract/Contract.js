@@ -12,6 +12,8 @@ const Contract = () => {
           }, (error) => {
               console.log(error.text);
           });
+
+          
         }
     
     return (
@@ -21,21 +23,23 @@ const Contract = () => {
             <form className="contact-form mt-5" onSubmit={sendEmail} data-aos="fade-down">
                 
                 <label><span className="span-text">Name</span></label>
-                <br/>
-                <input type="text" name="user_name" placeholder="Enter Your Name"/>
-                <br/>
+                <br/> 
+                <input type="text" name="user_name" placeholder="Enter Your Name" required/>
+                <br/> 
                 <label><span className="span-text">Email</span></label>
                 <br/>
-                <input type="email" name="user_email" placeholder="Enter Your Email"/>
+                <input type="email" name="user_email" placeholder="Enter Your Email" required/>
                 <br/>
                 <label><span className="span-text">Message</span></label>
                 <br/>
-                <textarea name="message" placeholder="Enter Your Message"/>
+                <textarea name="message" placeholder="Enter Your Message" required/>
                 <br/>
                 {/* <input type="submit" value="Send" /> */}
                 <br/>
-                <button className="button">Submit</button>
+                <button className="button" >Submit</button>
             </form>
+
+            <footer className="text-center mt-5 span-text">© Copyright {new Date().getFullYear()} Tahmid Mahdi. All rights are reserved</footer>
         </div>
     );
 };

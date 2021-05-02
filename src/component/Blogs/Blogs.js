@@ -2,7 +2,7 @@ import React from 'react';
 import './Blogs.css'
 import blog1 from '../../images/blog1.jpeg'
 import blog2 from '../../images/blog2.jpeg'
-import blog3 from '../../images/blog3.png'
+import blog3 from '../../images/blog3.jpeg'
 
 const Blogs = () => {
     return (
@@ -17,7 +17,7 @@ const Blogs = () => {
                         
                     </div>
                     <img src={blog1} class="card-img-bottom" alt="..." />
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    <p class="card-text"><small class="text-muted">Last updated 15 days ago</small></p>
                     <a href='https://tahmidmahdi.medium.com/difference-between-var-let-const-in-javascript-76525d206488' rel="noreferrer" target='_blank'><button className="button ">View Article</button></a>
                 </div>
     
@@ -28,7 +28,7 @@ const Blogs = () => {
                         
                     </div>
                     <img src={blog2} class="card-img-bottom" alt="..." />
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    <p class="card-text"><small class="text-muted">Last updated 1 Month ago</small></p>
                     <a href='https://tahmidmahdi.medium.com/difference-between-var-let-const-in-javascript-76525d206488' rel="noreferrer" target='_blank'><button className="button ">View Article</button></a>
                 </div>
     
