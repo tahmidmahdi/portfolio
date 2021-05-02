@@ -18,3 +18,13 @@
 div{
     font-family: 'Fira Code', monospace;
 }
+.fontawesome-icon{
+    color: white
+}
+.fontawesome-icon:hover{
+    color:  #56FFDA
+}
+.bottom-icon{
+    margin-bottom: 80px;
+    
+}
