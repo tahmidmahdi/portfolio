@@ -4,8 +4,7 @@ import React from "react";
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 import Home from './component/Home/Home';
 import About from './component/About/About';

@@ -18,7 +18,7 @@ const Contract = () => {
         <div className="contract" id="contract">
             <h1><span className="span-text">05</span> Contract Me</h1>
             <small><span className="span-text">As I am finding new scopes, my email is always open to receive from you. Fill up the form below and click submit. I will surely give reply to your text</span></small>
-            <form className="contact-form mt-5" onSubmit={sendEmail}>
+            <form className="contact-form mt-5" onSubmit={sendEmail} data-aos="fade-down">
                 
                 <label><span className="span-text">Name</span></label>
                 <br/>

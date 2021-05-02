@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import Typewriter from 'typewriter-effect';
 import './Home.css'
 import img from '../../images/image 12.png'
-import img2 from '../../images/fbImg.jpg'
+// import img2 from '../../images/fbImg.jpg'
 import Particles from 'react-particles-js';
 import Aos from 'aos';
 // import Aos from 'aos';
@@ -56,7 +56,7 @@ const Home = () => {
                     <h1>Tahmid Mahdi </h1>
                     <Typewriter
                         options={{
-                            strings: ['<span>Writing Codes For Web</span>', '<span>Web Developer</span>', '<span>Programmer</span>'],
+                            strings: ['<span>Writing Codes For Web</span>', '<span>Web Developer</span>', '<span>JavaScript Developer</span>', '<span>Programmer</span>'],
                             delay: 120,
                             autoStart: true,
                             loop: true,
