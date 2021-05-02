@@ -4,7 +4,7 @@ import './About.css'
 const About = () => {
     return (
         <div className="row about " id='about' >
-            <div className="col-md-6" data-aos="fade-up"
+            <div className="col-md-6 about-responsive" data-aos="fade-up"
                 data-aos-duration="1500">
                 <h1><span className="span-text">02 </span>About Me</h1>
                 <p className="mt-5">Hello I am <span className='span-text'>Mahdi</span>. A Full Stack Web Developer. Who has passion in web.  As a tech enthusiast, I always love to learn things. I have graduated from <span className='span-text'>Daffodil International University. </span> I love to create web things also love to write about web. Participated programming contests and many activities through out my whole university life. I have experience in AI, Ml and Natural Language Processing. Currently I am working with Web Development Found Love in <span className='span-text'>MERN Stack</span>.
@@ -12,7 +12,7 @@ const About = () => {
                 </p>
 
             </div>
-            <div className="col-md-6 about-skill" data-aos="fade-down"
+            <div className="col-md-6  about-skill" data-aos="fade-down"
                 data-aos-easing="linear"
                 data-aos-duration="1500">
                 <h5>Here are some few Technologies I have worked with</h5>

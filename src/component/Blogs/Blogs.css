@@ -22,3 +22,13 @@ figure p{
 .blog-cart{
     margin-top: 100px;
 }
+@media only screen and (max-width: 600px) {
+    .blogs{
+        margin: 0px 10px;
+    }
+    .card img{
+        width: 500px;
+        margin-left: 0
+    }
+  }
+  

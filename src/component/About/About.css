@@ -29,3 +29,15 @@ div{
 .skill-div span:hover{
     color: #56FFDA
 }
+@media only screen and (max-width: 600px) {
+    .about-responsive h1{
+        font-size: 30px
+    }
+    .about{
+        margin: 0px 10px !important
+    }
+    .about-skill h5{
+        font-size: 20px
+    }
+  }
+  

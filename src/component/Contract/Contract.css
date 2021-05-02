@@ -21,3 +21,10 @@
 .contract form label{
     color: white;
 }
+
+@media only screen and (max-width: 600px) {
+    .contract{
+        margin: 80px 10px 
+    }
+  }
+  

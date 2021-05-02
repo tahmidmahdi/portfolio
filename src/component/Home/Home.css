@@ -71,3 +71,28 @@
 .main-home-div{
     margin-top: 150px
 }
+@media only screen and (max-width: 600px) {
+   .img{
+        margin-top: 100px;
+        margin-right: 100px;
+        width: 70%
+        
+    }
+    .home-data{
+        margin-top: 500px !important;
+        margin-right: 80px;        
+    }
+    .home-data h1 {
+        font-size: 30px;
+        
+    }
+    .home-data button{
+        width: 100px;
+        height: 30px
+    }
+    .home-data span{
+        font-size:15px
+    }
+    
+  }
+  

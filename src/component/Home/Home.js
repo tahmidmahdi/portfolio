@@ -50,8 +50,11 @@ const Home = () => {
                     
                 />
             
-            <div className=" home row d-flex align-items-center scale-in-center" id='home welcome' data-aos="zoom-in">
-                <div className="col-md-6 ">
+            <div className=" home row d-flex align-items-center scale-in-center" id='home welcome' data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
+
+                <div className="col-md-6 home-data">
                     <p>Hi, This is 👋 </p>
                     <h1>Tahmid Mahdi </h1>
                     <Typewriter
@@ -67,16 +70,10 @@ const Home = () => {
                     <a href='../../images/Resume.pdf' download>  <button className="button">Resume</button></a>
                 </div>
                 <div className="col-md-6 ">
-                    <img className="img" src={img} alt="" />
+                    <img className="img img-fluid" src={img} alt="" />
                     
                 </div>
                
-
-
-
-
-
-
             </div>
 
 

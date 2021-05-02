@@ -14,3 +14,23 @@
 .cart{
     margin-top: 100px;
 }
+@media only screen and (max-width: 600px) {
+    .box{
+        margin: 0px;
+        width: 450px
+    }
+    .box img{
+        width: 400px;
+        margin-right: 120px;
+    }
+    .box p{
+        font-size: 12px;
+        text-overflow: none !important;
+        margin-right: 10px;
+    }
+    .button{
+        width: 100px;
+        height: 50px
+    }
+  }
+  

@@ -28,3 +28,9 @@ div{
     margin-bottom: 80px;
     
 }
+@media only screen and (max-width: 600px) {
+    .fontawesome-icon{
+        size: 1px !important;
+    }
+  }
+  

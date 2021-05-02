@@ -9,7 +9,7 @@ const MainNav = () => {
     return (
        
         <div>
-                <Navbar className="container mt-3" expand="lg" >
+                <Navbar className="container mt-3" expand="lg" data-aos="fade-down">
                     
                     <img className="logo" src={logo2} alt=""/>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
