@@ -29,6 +29,9 @@ div{
 .skill-div span:hover{
     color: #56FFDA
 }
+.skill-icon{
+    margin-left: 42%;
+}
 @media only screen and (max-width: 600px) {
     .about-responsive h1{
         font-size: 30px

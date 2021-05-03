@@ -8,7 +8,7 @@ const Contract = () => {
     
         emailjs.sendForm('service_px609bj', 'template_2hmgsln', e.target, 'user_FuU47gmscPa0RFTjtRr0P')
           .then((result) => {
-              console.log(result.text);
+              console.log(result);
           }, (error) => {
               console.log(error.text);
           });
@@ -34,9 +34,10 @@ const Contract = () => {
                 <br/>
                 <textarea name="message" placeholder="Enter Your Message" required/>
                 <br/>
-                {/* <input type="submit" value="Send" /> */}
+                {/* <input type="submit" value="Send" className='button'/> */}
                 <br/>
-                <button className="button" >Submit</button>
+                <button className="button" type="submit">Submit</button>
+                {/* <input type="submit" value='Send' className='button'/> */}
             </form>
 
             <footer className="text-center mt-5 span-text">© Copyright {new Date().getFullYear()} Tahmid Mahdi. All rights are reserved</footer>

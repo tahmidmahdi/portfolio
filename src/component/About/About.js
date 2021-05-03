@@ -1,3 +1,6 @@
+import { faBootstrap, faCss3, faCss3Alt, faDocker, faGit, faHtml5, faJsSquare, faNodeJs, faNpm, faPython, faReact, faSass } from '@fortawesome/free-brands-svg-icons';
+import { faFireAlt, faParagraph, faTerminal } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import './About.css'
 
@@ -56,6 +59,26 @@ const About = () => {
                         <span>>SASS</span>
                     </div>
                 </div>
+            </div>
+
+
+            <div className='skill-icon'>
+                <FontAwesomeIcon icon={faHtml5} size="2x" className="fontawesome-icon mt-5"/> { ' '}
+                <FontAwesomeIcon icon={faCss3Alt} size="2x" className="fontawesome-icon mt-5"/> { ' '}
+                <FontAwesomeIcon icon={faNodeJs} size="2x" className="fontawesome-icon mt-5"/> { ' ' }
+                <FontAwesomeIcon icon={faJsSquare} size="2x" className="fontawesome-icon mt-5"/> { ' ' }
+                <FontAwesomeIcon icon={faFireAlt} size="2x" className="fontawesome-icon mt-5"/> { ' ' }
+                <FontAwesomeIcon icon={faGit} size="2x" className="fontawesome-icon mt-5"/> { ' ' }
+                <FontAwesomeIcon icon={faBootstrap} size="2x" className="fontawesome-icon mt-5"/> { ' ' }
+               
+                <br/>
+                <FontAwesomeIcon icon={faNpm} size="2x" className="fontawesome-icon mt-5"/> { ' ' }
+                <FontAwesomeIcon icon={faPython} size="2x" className="fontawesome-icon mt-5"/> { ' ' }
+                <FontAwesomeIcon icon={faReact} size="2x" className="fontawesome-icon mt-5"/> { ' ' }
+                <FontAwesomeIcon icon={faTerminal} size="2x" className="fontawesome-icon mt-5"/> { ' ' }
+                <FontAwesomeIcon icon={faDocker} size="2x" className="fontawesome-icon mt-5"/> { ' ' }
+                <FontAwesomeIcon icon={faSass} size="2x" className="fontawesome-icon mt-5"/> { ' ' }
+
             </div>
         </div>
     );
