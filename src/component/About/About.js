@@ -1,5 +1,5 @@
-import { faBootstrap, faCss3, faCss3Alt, faDocker, faGit, faHtml5, faJsSquare, faNodeJs, faNpm, faPython, faReact, faSass } from '@fortawesome/free-brands-svg-icons';
-import { faFireAlt, faParagraph, faTerminal } from '@fortawesome/free-solid-svg-icons';
+import { faBootstrap,  faCss3Alt, faDocker, faGit, faHtml5, faJsSquare, faNodeJs, faNpm, faPython, faReact, faSass } from '@fortawesome/free-brands-svg-icons';
+import { faFireAlt,  faTerminal } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import './About.css'
