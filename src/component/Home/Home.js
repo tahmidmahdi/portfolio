@@ -67,7 +67,7 @@ const Home = () => {
                         }}
                     />
                     <br />
-                    <a href='../../images/Resume.pdf' download>  <button className="button">Resume</button></a>
+                    <a href='https://drive.google.com/uc?export=download&id=1CwuVuE_Y2ff3uIeoo01khBnTJUhiLNMZ'>  <button className="button">Resume</button></a>
                 </div>
                 <div className="col-md-6 ">
                     <img className="img img-fluid" src={img} alt="" />
