@@ -62,7 +62,7 @@ const About = () => {
             </div>
 
 
-            <div className='skill-icon'>
+            <div className='skill-icon' >
                 <FontAwesomeIcon icon={faHtml5} size="2x" className="fontawesome-icon mt-5"/> { ' '}
                 <FontAwesomeIcon icon={faCss3Alt} size="2x" className="fontawesome-icon mt-5"/> { ' '}
                 <FontAwesomeIcon icon={faNodeJs} size="2x" className="fontawesome-icon mt-5"/> { ' ' }

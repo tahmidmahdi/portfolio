@@ -1,6 +1,7 @@
 .home{
     margin-top: -700px;
     margin-left: 200px !important;
+    position: absolute;
 }
 .home {
     /* color: white; */
@@ -74,13 +75,15 @@
 @media only screen and (max-width: 600px) {
    .img{
         margin-top: 100px;
-        margin-right: 100px;
-        width: 70%
+        margin-left: -50px;
+        width: 50%;
+        /* border: 1px solid white !important */
         
     }
     .home-data{
-        margin-top: 500px !important;
-        margin-right: 80px;        
+        /* margin-top: 500px !important; */
+        /* margin-right: 80px; */
+        margin: 500px 0px 0px 0px !important;
     }
     .home-data h1 {
         font-size: 30px;
@@ -92,6 +95,10 @@
     }
     .home-data span{
         font-size:15px
+    }
+    .main-home-div{
+        margin: 0px;
+        margin-left: -50px
     }
     
   }
