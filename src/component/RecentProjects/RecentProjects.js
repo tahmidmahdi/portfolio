@@ -3,6 +3,7 @@ import './RecentProjects.css'
 import travel from '../../images/travelxp.png'
 import fresh from '../../images/freshgarden.png'
 import metro from '../../images/metro.png'
+import doctor from '../../images/doctors.png'
 import Project from '../Project/Project';
 
 
@@ -33,10 +34,11 @@ const projects = [
     },
     {
         id: 4,
-        img: travel,
-        details: 'Travel Xp is a fully functional website where you can book a tourism package. Google Signin method is implemented where exist two different dashboard for admin and user. A user can write review and book a package. An admin can delete bookings, edit it and can change the status of it. Admin can add a new package',
-        github: 'https://github.com/tahmidmahdi/TravelXp-Client',
-        liveSite: 'https://travelxp.netlify.app'
+        img: doctor,
+        title: 'Doctors Portal',
+        details: 'Doctors portal is a site where a patient can take a doctors appointment',
+        github: 'https://github.com/tahmidmahdi/doctors-portal',
+        liveSite: 'https://doctors-portal-main.netlify.app/'
     },
 
 ]
