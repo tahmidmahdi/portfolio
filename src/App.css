@@ -27,12 +27,21 @@
 .App-link {
   color: #61dafb;
 }
-
+.loader{
+  margin-left: 48%;
+  margin-top: 25%
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
+  }
+}
+@media only screen and (max-width: 600px) {
+  .loader{
+    margin-left: 42%;
+    margin-top: 80%
   }
 }
