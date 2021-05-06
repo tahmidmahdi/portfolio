@@ -15,22 +15,31 @@
     margin-top: 100px;
 }
 @media only screen and (max-width: 600px) {
+    
     .box{
         margin: 0px;
-        width: 450px
+        width: 450px !important
     }
     .box img{
         width: 400px;
-        margin-left: 30px;
+        height: 300px;
+        margin-left: -30px;
     }
     .box p{
         font-size: 12px;
-        text-overflow: none !important;
-        margin-right: 10px;
+        white-space: initial;
+
+    }
+    .box h4{
+        margin-left: -90px;
     }
     .button{
         width: 100px;
-        height: 50px
+        height: 50px;
+        
+    }
+    .github{
+        margin-left: -90px;
     }
   }
   

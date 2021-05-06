@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import Typewriter from 'typewriter-effect';
 import './Home.css'
 import img from '../../images/image 12.png'
+import img2 from '../../images/picture.png'
 // import img2 from '../../images/fbImg.jpg'
 import Particles from 'react-particles-js';
 import Aos from 'aos';
@@ -70,7 +71,7 @@ const Home = () => {
                     <a href='https://drive.google.com/uc?export=download&id=1CwuVuE_Y2ff3uIeoo01khBnTJUhiLNMZ'>  <button className="button">Resume</button></a>
                 </div>
                 <div className="col-md-6 ">
-                    <img className="img img-fluid" src={img} alt="" />
+                    <img className="img img-fluid" src={img2} alt="" />
                     
                 </div>
                

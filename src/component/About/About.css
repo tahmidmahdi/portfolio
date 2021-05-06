@@ -32,6 +32,10 @@ div{
 .skill-icon{
     margin-left: 42%;
 }
+.fontawesome-icon:hover{
+    cursor: pointer;
+    
+}
 @media only screen and (max-width: 600px) {
     .about-responsive h1{
         font-size: 30px
@@ -43,7 +47,7 @@ div{
         font-size: 20px
     }
     .skill-icon{
-        margin-left: 100px;
+        margin-left: 50px;
     }
   }
   

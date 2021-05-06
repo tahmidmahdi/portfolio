@@ -10,8 +10,8 @@ const Project = ({project}) => {
                 <h4>{project.title}</h4>
                 <p>{project.details}</p>
                 <br/>
-                <a href={project.github} rel="noreferrer" target="_blank"><button className='button'>Github </button></a> {' '}
-                <a href={project.liveSite} rel="noreferrer" target="_blank"><button className="button">LiveSite</button></a>
+                <a href={project.github} rel="noreferrer" target="_blank"><button className='button github'>Github </button></a> {' '}
+                <a href={project.liveSite} rel="noreferrer" target="_blank"><button className="button livesite">LiveSite</button></a>
            </div>
        </div>
     );
