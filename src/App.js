@@ -40,15 +40,7 @@ function App() {
       { !spinner && 
         <Switch>
           <Route exact path="/">
-            {
-              spinner && <Loader
-                type="Puff"
-                color="#00BFFF"
-                height={100}
-                width={100}
-                timeout={3000} //3 secs
-              />
-            }
+            
             <MainNav></MainNav>
             <Home>
             </Home>
