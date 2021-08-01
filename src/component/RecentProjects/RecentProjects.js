@@ -4,7 +4,7 @@ import travel from '../../images/travelxp.png'
 import fresh from '../../images/freshgarden.png'
 import metro from '../../images/metro.png'
 import twurs from '../../images/twurs.png'
-import doctor from '../../images/doctors.png'
+// import doctor from '../../images/doctors.png'
 import Project from '../Project/Project';
 // import Project from '../Project/Project';
 
