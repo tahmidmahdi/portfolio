@@ -18,8 +18,8 @@ const MainNav = () => {
                             <a href="#home" className="nav-link" >01_Home</a>
                             <a href="#about" className="nav-link ">02_About</a>
                             <a href="#project" className="nav-link ">03_Projects</a>
-                            <a href="#contract" className="nav-link ">04_Contract</a>
-                            <a href="#blog" className="nav-link ">05_Blog</a>
+                            <a href="#blog" className="nav-link ">04_Blog</a>
+                            <a href="#contract" className="nav-link ">05_Contract</a>
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>
