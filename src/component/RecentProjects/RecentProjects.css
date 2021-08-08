@@ -24,7 +24,8 @@
 }
 .card img{
     height:414px !important;
-    width: 90% !important
+    width: 90% !important;
+    margin-left: 0 !important;
 }
 
 /* @media only screen and (max-width: 600px) {

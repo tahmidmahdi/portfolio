@@ -4,9 +4,7 @@ import travel from "../../images/travelxp.png";
 import fresh from "../../images/freshgarden.png";
 import metro from "../../images/metro.png";
 import twurs from "../../images/twurs.png";
-// import doctor from '../../images/doctors.png'
-import Project from "../Project/Project";
-// import Project from '../Project/Project';
+
 
 const projects = [
   {
@@ -73,12 +71,13 @@ const RecentProjects = () => {
           <div class="card">
             <img src={projects[0].img} class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">{projects[0].title}</h5>
               <p class="card-text">
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+                {projects[0].details}
               </p>
+
+              <a href={projects[0].github} rel="noreferrer" target="_blank"><button className='button github'>Github </button></a> {' '}
+              <a href={projects[0].liveSite} rel="noreferrer" target="_blank"><button className="button livesite">LiveSite</button></a>
             </div>
           </div>
         </div>
@@ -86,12 +85,12 @@ const RecentProjects = () => {
           <div class="card">
           <img src={projects[1].img} class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">{projects[1].title}</h5>
               <p class="card-text">
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+                {projects[1].details}
               </p>
+              <a href={projects[1].github} rel="noreferrer" target="_blank"><button className='button github'>Github </button></a> {' '}
+              <a href={projects[1].liveSite} rel="noreferrer" target="_blank"><button className="button livesite">LiveSite</button></a>
             </div>
           </div>
         </div>
@@ -99,11 +98,12 @@ const RecentProjects = () => {
           <div class="card">
           <img src={projects[2].img} class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">{projects[2].title}</h5>
               <p class="card-text">
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content.
+                {projects[2].details}
               </p>
+              <a href={projects[2].github} rel="noreferrer" target="_blank"><button className='button github'>Github </button></a> {' '}
+              <a href={projects[2].liveSite} rel="noreferrer" target="_blank"><button className="button livesite">LiveSite</button></a>
             </div>
           </div>
         </div>
@@ -111,12 +111,12 @@ const RecentProjects = () => {
           <div class="card">
           <img src={projects[3].img} class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">{projects[3].title}</h5>
               <p class="card-text">
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+               {projects[3].details}
               </p>
+              <a href={projects[3].github} rel="noreferrer" target="_blank"><button className='button github'>Github </button></a> {' '}
+              <a href={projects[3].liveSite} rel="noreferrer" target="_blank"><button className="button livesite">LiveSite</button></a>
             </div>
           </div>
         </div>
